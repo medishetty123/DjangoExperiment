@@ -54,7 +54,7 @@ ROOT_URLCONF = 'wordCount.wordCount.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': ['wordCount/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
