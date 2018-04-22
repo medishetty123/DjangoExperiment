@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'wordCount.urls'
+ROOT_URLCONF = 'wordCount.wordCount.urls'
 
 TEMPLATES = [
     {
